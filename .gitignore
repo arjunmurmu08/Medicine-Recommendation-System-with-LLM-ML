@@ -1,0 +1,16 @@
+# Ignore virtual environments
+venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore model binaries and data
+models/
+backend/datasets/
+
+# Ignore secrets and config
+frontend/.streamlit/secrets.toml
+
+# Jupyter notebooks checkpoints (if any)
+.ipynb_checkpoints/
